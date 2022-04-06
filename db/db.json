@@ -1,0 +1,123 @@
+{
+  "ingredientes": {
+    "wheys": [
+      {
+        "id": 1,
+        "tipo": "Concentrado"
+      },
+      {
+        "id": 2,
+        "tipo": "Isolado"
+      },
+      {
+        "id": 3,
+        "tipo": "Hidrolisado"
+      }
+    ],
+    "sabores": [
+      {
+        "id": 1,
+        "tipo": "Morango"
+      },
+      {
+        "id": 2,
+        "tipo": "Chocolate"
+      },
+      {
+        "id": 3,
+        "tipo": "Brigadeiro"
+      },
+      {
+        "id": 4,
+        "tipo": "Sorteve de Creme"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Leite Condensado Zero"
+      },
+      {
+        "id": 2,
+        "tipo": "Morango"
+      },
+      {
+        "id": 3,
+        "tipo": "Paçoca Zero"
+      },
+      {
+        "id": 4,
+        "tipo": "Banana"
+      },
+      {
+        "id": 5,
+        "tipo": "Kiwi"
+      },
+      {
+        "id": 6,
+        "tipo": "Pasta de Amendoim"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "shakes": [
+    {
+      "nome": "Tonelada",
+      "whey": "Isolado",
+      "sabor": "Morango",
+      "opcionais": [
+        "Banana",
+        "Morango"
+      ],
+      "status": "",
+      "id": 1
+    },
+    {
+      "nome": "Maria",
+      "whey": "Hidrolisado",
+      "sabor": "Chocolate",
+      "opcionais": [
+        "Morango",
+        "Banana"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "Luan Cortez",
+      "whey": "Hidrolisado",
+      "sabor": "Chocolate",
+      "opcionais": [
+        "Leite Condensado Zero",
+        "Banana",
+        "Pasta de Amendoim"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Tonelada",
+      "whey": "Isolado",
+      "sabor": "Morango",
+      "opcionais": [
+        "Leite Condensado Zero",
+        "Kiwi"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    }
+  ]
+}
